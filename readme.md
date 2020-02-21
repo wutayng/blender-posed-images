@@ -41,6 +41,7 @@ $ python3 run.py data
 ### Output Joints .csv is In Image Pixel Coordinates w/ Perspective
 
 ### Joint Heirarchy - Corresponding to Rows of Output CSV from generate-blender.py
+```
 
 └── pelvis  
     ├── lowerBack  
@@ -48,7 +49,7 @@ $ python3 run.py data
     │       └── spine  
     │           └── topSpine  
     │               ├── neck  
-    │               │   └── head
+    │               │   └── head  
     │               │   │   └── crown  
     │               ├── scLeft  
     │               │   └── leftShoulder  
@@ -78,6 +79,7 @@ $ python3 run.py data
             └── rightAnkle   
                 └── rightFoot   
                     └── rightToe   
+```
 
 ## Attributions
 
